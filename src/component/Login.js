@@ -23,7 +23,7 @@ const Login = () => {
         console.log(response.data, "response");
       })
       .catch(function (error) {
-        console.error(error);
+        console.error(error, "error");
       });
 
     // axios
