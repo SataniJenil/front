@@ -8,15 +8,7 @@ const Login = () => {
   const handleLogin = async (e) => {
     e.preventDefault();
 
-    // const options = {
-    //   method: "GET",
-    //   // url: "https://latest-stock-price.p.rapidapi.com/price",
-    //   params: { Indices: "NIFTY 50" },
-    //   headers: {
-    //     "X-RapidAPI-Key": "c2558f69cdmshc896929dabd0853p1c0855jsndd033199a96e",
-    //     "X-RapidAPI-Host": "latest-stock-price.p.rapidapi.com",
-    //   },
-    // };
+ 
     // axios
     //   .request(options)
     //   .then(function (response) {
